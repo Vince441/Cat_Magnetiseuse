@@ -6,8 +6,14 @@
   box-sizing: border-box;
 }
 
+body {
+    background-color: #c7879846;
+
+}
+
 header {
-  height: 50vh;
+  height: 30vh;
+  
 }
 
 .container-nav-bar {
@@ -50,7 +56,7 @@ header {
   font-size: 4em;
   display: flex;
   flex-direction: column;
-  color: #47a8bd;
+  color: #9e575e;
 }
 
 h2,
@@ -58,4 +64,50 @@ h3 {
   font-family: "Quicksand", sans-serif;
   font-size: 1.2em;
   color: #344966;
+}
+
+.container-global {
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  gap: 80px;
+  background-color: #9e575e;
+  padding: 10px;
+}
+
+.container-global p {
+  margin-bottom: -95%;
+}
+
+.bloc {
+  width: 15%;
+  height: 100%;
+  background-color: white;
+  box-shadow: 1px 1px 0px 1px #00000052;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: "Quicksand", sans-serif;
+  color: white;
+  text-shadow: 2px 2px 6px #000000;
+}
+
+.bloc1 {
+  background-image: url("images/blocage.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.bloc2 {
+  background-image: url("images/dev-perso.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.bloc3 {
+}
+.bloc4 {
+  background-image: url("images/reiki.jpg");
+  background-position: center;
+  background-size: cover;
 }
