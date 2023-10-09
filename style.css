@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 50vh;
+}
+
+.container-nav-bar {
+  border-bottom: 1px solid black;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background-color: #ca6680;
+  margin-bottom: 2%;
+}
+
+.container-nav-bar li {
+  padding: 0 40px;
+  font-size: 1.2em;
+  font-family: "Quicksand", sans-serif;
+  color: white;
+  cursor: pointer;
+}
+
+.container-nav-bar li a {
+  text-decoration: none;
+  color: white;
+}
+
+.container-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.container-info img {
+  width: 8%;
+}
+
+#element-Nom {
+  font-family: "Dancing Script", cursive;
+  color: black;
+  font-size: 4em;
+  display: flex;
+  flex-direction: column;
+  color: #47a8bd;
+}
+
+h2,
+h3 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.2em;
+  color: #344966;
+}
